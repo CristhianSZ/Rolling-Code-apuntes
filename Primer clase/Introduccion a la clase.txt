@@ -1,0 +1,26 @@
+CSS algo de cascada
+El color que queda de fondo es el que esta en cascada
+Azul 
+Rojo
+
+termina siendo rojo es el final de la cascada
+Se observa una pagina del navegador y nos muestra el codigo de la misma a traves del investigar 
+Tengo HTML y head escrilp style body y diferenctes secciones que se las ve como vajas pequequeñas donde cada caja pequeña tiene diferente tipo de informacion y su contenido 
+A la hora de diseñar la pagina que se hace?
+Estas vajas se llaman div, que son contenedores
+etiqueta p es un paragrap un parrajo y se le puede definir que tipo de informacion se pondra adrentro 
+Cada etiqueta tiene un estilo predefiniddo
+
+Caja grande llamado body
+aque puedo poner el div esta es una etiqueta que nececesita una eqitqeta de cierra y apertura
+Hojas de stilos (todo esta en ingles)
+background:black(es un fondo)
+<div>
+h1 titulos  no se ve porque esta en negro el fondo
+(Cambiar color color= whiter ahira si lo veo
+En la caja  la pinto tanmbien backgroun dred (Ahora se diferencia de azul la caja))
+widyh:50% me da lugar a pintar soolo 
+Fronted es la parte del 
+Le hace una peticion al back endo y yo voy a modificar esa data para mostrarla 
+  Instalado de el editor de codigo
+Sobre una carpeta abrir la terminal y codear code . abre VS code
