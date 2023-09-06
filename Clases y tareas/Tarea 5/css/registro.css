@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  background-color: #f0f2f5;
+  color: white;
+}
+
+.header {
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.registration-form {
+  background-color: #ffffff;
+  width: 600px;
+  margin: auto;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  background-color: #1877f2;
+  color: white;
+  margin: auto;
+}
+
+.footer {
+  background-color: #f0f2f5;
+  text-align: center;
+  color: #505050;
+}
