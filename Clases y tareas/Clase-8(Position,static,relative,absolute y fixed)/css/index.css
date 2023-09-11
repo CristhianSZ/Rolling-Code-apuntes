@@ -1,0 +1,33 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: black;
+  display: inline-block;
+}
+
+body {
+  margin: 40px;
+}
+.static-default {
+  background-color: aqua;
+}
+
+.relative {
+  background-color: rgb(255, 68, 0);
+  position: relative;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.absolute {
+  background-color: blue;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  z-index: 2;
+}
+
+.fixed {
+  background-color: green;
+}
