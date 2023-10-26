@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <h1>Formulario Registro de usuario</h1>
+    <h1 class="titulo1">Formulario Registro de usuario</h1>
     <form action="">
       <!--value="un valor constante" util para cuando lo que este modificando, ya que me muestra la data que ya tengo-->
       <input type="text" placeholder="Ingrese su nombre" />
@@ -21,7 +22,13 @@
         <option value="">Casado</option>
         <option value="">Viudo</option>
       </select>
-      <button onclick="">Enviar</button>
     </form>
+    <button onclick="obtenerValores">Enviar</button>
+    <script>
+        const obtenerValores = () => {
+          console.log("Hola esto es una ejecución no se aususte")
+        }
+
+    </script>
   </body>
 </html>
