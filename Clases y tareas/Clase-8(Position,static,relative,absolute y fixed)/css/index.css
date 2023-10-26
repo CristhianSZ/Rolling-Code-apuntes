@@ -23,11 +23,13 @@ body {
 .absolute {
   background-color: blue;
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 60px;
   z-index: 2;
 }
 
 .fixed {
+  position: fixed;
   background-color: green;
+  top: 0px;
 }

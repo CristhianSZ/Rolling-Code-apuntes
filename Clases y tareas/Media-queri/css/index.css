@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 15px;
+    background-color: red;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 25px;
+    background-color: violet;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .h1 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .h1 {
+    background-color: yellow;
+  }
+}

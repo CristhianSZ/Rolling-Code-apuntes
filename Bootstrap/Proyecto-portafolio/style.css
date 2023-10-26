@@ -1,0 +1,164 @@
+/* Barra de navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Seccion Hero */
+.hero {
+  background-color: #f5f6f7;
+  /* porque una altura minima? porque asi se permite que el contenido ose estire */
+  min-height: 450px;
+  text-align: center;
+}
+.hero-principal {
+  padding: 3rem;
+}
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+  margin: 20px;
+}
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Sobre mi */
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+/* el estilo selector css de abajo espesifica que si tengo una clase contenedor que tiene dentro una clase sobre-mi se va a aplicar  el estilo */
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia {
+  /* la asignacion de valores es en el orden de las agujas del reloj parte superior , derecha , inferior e izquierda */
+  padding: 40px 40px 60px 40px;
+}
+/* En este caso es mas criterioso aplicar el estilo a todas las columnas en ves de aplicar las clases a cada etiqueta para que reconozca el estilo de bootstrap */
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Se utiliza evenly por que buscamos distribuir los elementos en el eje principal */
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenerdor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* Proyectos */
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s;
+}
+
+.proyecto-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+/* Estilos generales */
+
+section {
+  /*  Porque no directamente uso clases de bootstrap para esto? para evitarme repeticion */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  /* rem es una dimension relativa al tamaño de la letra raiz es 2.5 veces el tamaño de la letra html */
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion-oscura {
+  background-color: #020203;
+  color: white;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion-descripcion {
+  font: 1.2rem;
+  color: #584e4e;
+}
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.texto-negro {
+  color: black;
+}
+.texto-blanco {
+  color: white;
+}
+/* Adaptable (Responsivo) */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
