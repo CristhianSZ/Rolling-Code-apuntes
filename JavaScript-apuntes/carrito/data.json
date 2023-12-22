@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "libro1",
+    "precio": 50,
+    "img": "https://th.bing.com/th/id/OIP.RCwQynagIg0KG2qCKKWwtgAAAA?pid=ImgDet&w=376&h=601&rs=1",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "libro2",
+    "precio": 100,
+    "img": "https://th.bing.com/th/id/OIP.e1YtwVXYIKFejFQ45fbCbAHaL0?rs=1&pid=ImgDetMain",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "libro3",
+    "precio": 150,
+    "img": "https://th.bing.com/th/id/OIP.AjeN3U9sSQyVTzNe7PZN0QAAAA?pid=ImgDet&w=376&h=601&rs=1",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "libro4",
+    "precio": 200,
+    "img": "https://th.bing.com/th/id/OIP.gJGyAdBTR7XGEGTwCvnxTwAAAA?pid=ImgDet&w=376&h=601&rs=1",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "libro5",
+    "precio": 250,
+    "img": "https://th.bing.com/th/id/OIP.v1vHSSpCyRcbZE7tYiBwfgAAAA?pid=ImgDet&w=376&h=601&rs=1",
+    "cantidad": 1
+  }
+]
